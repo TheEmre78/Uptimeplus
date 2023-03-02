@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const Blog = require("./veri.js");
 const bp = require("body-parser");
 const fetch = require("node-fetch")
-mongoose.connect("mongo_dbURL", { useNewUrlParser: true })
+mongoose.connect("mongodb+srv://RickyBot:Ricky123456789@atlascluster.ee3kq79.mongodb.net/?retryWrites=true&w=majority", { useNewUrlParser: true })
     .then(() => console.log("[DATABASE] Veritabanına başarıyla bağlantı sağlandı!"))
     .catch(error => console.log("[DATABASE] Veritabanında hata oluştu!", error.message));
 
@@ -76,7 +76,7 @@ app.get("/discord", (req, res) => {
 
 
 setInterval(() => {
-    mongoose.connect("mongo_dbURL", function (err,db) {
+    mongoose.connect("mongodb+srv://RickyBot:Ricky123456789@atlascluster.ee3kq79.mongodb.net/?retryWrites=true&w=majority", function (err,db) {
     var uptime = db.collection("uptimes");
     uptime.find({}).toArray(function (err, result){  
       result.forEach(site =>{
