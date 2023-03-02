@@ -1,3 +1,13 @@
-# Get Started!
+<div align="center">
+    <h1>Developed with 💙 by Lourity</h1>
+</div>
 
-Add files and start typing 🎉
+# 📜 Kullanım
+> https://www.youtube.com/watch?v=mjBu_OIOptU&t=93s 
+>
+
+# 🔒 License
+> MIT
+
+# ⭐ Star
+> Beğendiyseniz star atmayı unutmayın!
