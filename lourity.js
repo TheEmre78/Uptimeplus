@@ -23,7 +23,7 @@ const strategy = new Strategy(
 	{
 		clientID: "1081056893717446726",
 		clientSecret: "hVons1Bg-lHl4ANFP96k0_XMpzzeWlmD",
-		callbackURL: "https://vivid-sulky-dolphin.glitch.me/callback", //callback url
+		callbackURL: "https://rickybotlistuptimesite.glitch.me/callback", //callback url
 		scope: ["identify"],
 	},
 	(_access_token, _refresh_token, user, done) =>
