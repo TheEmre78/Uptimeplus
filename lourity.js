@@ -21,9 +21,9 @@ passport.deserializeUser((user, done) => done(null, user));
 
 const strategy = new Strategy(
 	{
-		clientID: "bot_id",
-		clientSecret: "bot_secret",
-		callbackURL: "https://www.pasadorcode.xyz/callback", //callback url
+		clientID: "1081056893717446726",
+		clientSecret: "hVons1Bg-lHl4ANFP96k0_XMpzzeWlmD",
+		callbackURL: "https://vivid-sulky-dolphin.glitch.me/callback", //callback url
 		scope: ["identify"],
 	},
 	(_access_token, _refresh_token, user, done) =>
